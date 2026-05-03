@@ -1,3 +1,3 @@
-obj-m := hid_oddor_handbrake.o
-hid_oddor_handbrake-y := hid-oddor-handbrake.o
+obj-m := hid_ltbhb_handbrake.o
+hid_ltbhb_handbrake-y := hid-ltbhb-handbrake.o
 ccflags-y := -Idrivers/hid
