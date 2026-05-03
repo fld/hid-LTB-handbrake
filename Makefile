@@ -12,7 +12,7 @@ install: default
 	depmod -A
 
 unload:
-	rmmod hid_oddor_handbrake;
+	rmmod hid_ltbhb_handbrake;
 
 load:
-	insmod hid_oddor_handbrake.ko
+	insmod hid_ltbhb_handbrake.ko
